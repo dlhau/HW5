@@ -3,6 +3,12 @@ import akka.actor.ActorSystem;
 import akka.actor.ActorRef;
 import akka.actor.Props;
 
+/*
+ * David Hau
+ * 11/5/2018
+ * CS3700
+ */
+
 public class Main {
     
     private static ActorSystem actorSystem = ActorSystem.create("sieve-system");
